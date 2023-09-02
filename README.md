@@ -1,1 +1,1 @@
-# projects
+# Basic GAN from scratch
