@@ -3,7 +3,7 @@ This project is about understanding the fundamental idea behind GANs in its simp
 Dataset is Pokemon images form kaggle.
 A usual i am using pytorch and its various libraries for image transformation and manipulation.
 To load custom dataset i had to create a custom class inheriting the pytorch dataset and specipfy train and test transform to be performed.
-[here is the sample of trianing data](url)
+[here is the sample of trianing data](https://user-images.githubusercontent.com/26987970/265219832-4b2ca08a-0f58-4823-8a07-919c3d7e0f3d.png)
 
 The core idea is we have two neural networks Generator and Discriminator, we fed the training image to the discriminator
 which will try to learn its core representation pattern using Convolution2d layers and the Generator which accepts a random noise with the z latent dimension input channels(128, 256, 512 higher the better) and usamples the noisey input using convtranspose2d layers.
